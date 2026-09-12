@@ -6,7 +6,7 @@
  * - UTC 00:00 = 08:00 北京: tianhe-wellness
  * - UTC 02:00 = 10:00 北京: daily-ai-briefing
  * - UTC 12:30 = 20:30 北京: daily-beauty-i2i（图生图）
- * - UTC 12:00 = 20:00 北京: daily-beauty（文生图）+ daily-robot-insights(周一三五) + daily-psychology(周一三五)
+ * - UTC 12:00 = 20:00 北京: daily-beauty（文生图）+ daily-robot-insights(周一三五)
  *
  * Disabled 2026-06-24:
  * - daily-tech-news public-account publisher
@@ -59,14 +59,6 @@ const JOBS = {
     weekdays: [1, 3, 5],  // 仅周一、三、五
     description: '工业机器人洞察 (20:00 北京时间, 周一三五)'
   },
-  'daily-psychology': {
-    repo: 'lairulan/teen-psychology-insights',
-    event_type: 'daily-psychology',
-    cron_hour: 12,  // UTC 12:00 = 20:00 北京时间
-    cron_minute: 0,
-    weekdays: [1, 3, 5],  // 仅周一、三、五
-    description: '心光心理学文章 (20:00 北京时间, 周一三五)'
-  }
 };
 
 export default {
