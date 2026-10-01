@@ -6,10 +6,12 @@
  * - UTC 00:00 = 08:00 北京: tianhe-wellness
  * - UTC 02:00 = 10:00 北京: daily-ai-briefing
  * - UTC 12:30 = 20:30 北京: daily-beauty-i2i（图生图）
- * - UTC 12:00 = 20:00 北京: daily-beauty（文生图）+ daily-robot-insights(周一三五)
+ * - UTC 12:00 = 20:00 北京: daily-beauty（文生图）
  *
  * Disabled 2026-06-24:
  * - daily-tech-news public-account publisher
+ * Disabled 2026-10-01:
+ * - daily-robot-insights（用户要求停掉；仓库 workflow 同日已 disable）
  *
  * Telegram 日报已迁移到 GitHub Actions (.github/workflows/daily-report.yml)
  */
@@ -50,14 +52,6 @@ const JOBS = {
     cron_hour: 12,  // UTC 12:30 = 20:30 北京时间
     cron_minute: 30,
     description: '每日艺术写真·图生图 (20:30 北京时间)'
-  },
-  'daily-robot-insights': {
-    repo: 'lairulan/industrial-robot-insights',
-    event_type: 'daily-robot-insights',
-    cron_hour: 12,  // UTC 12:00 = 20:00 北京时间
-    cron_minute: 0,
-    weekdays: [1, 3, 5],  // 仅周一、三、五
-    description: '工业机器人洞察 (20:00 北京时间, 周一三五)'
   },
 };
 
