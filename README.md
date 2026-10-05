@@ -3,9 +3,9 @@
 
 > 0xfaheng · 上海封阳科技创始人
 
-[品牌主页与全部公开项目](https://github.com/lairulan) · [当前仓库](https://github.com/lairulan/github-scheduler)
+[品牌主页与全部公开项目](https://github.com/0xfaheng) · [当前仓库](https://github.com/0xfaheng/github-scheduler)
 
-微信：`faheng2009` · [X @0xfaheng](https://x.com/0xfaheng) · [YouTube @0xfaheng](https://www.youtube.com/@0xfaheng) · [微信二维码](https://github.com/lairulan#联系与关注)
+微信：`faheng2009` · [X @0xfaheng](https://x.com/0xfaheng) · [YouTube @0xfaheng](https://www.youtube.com/@0xfaheng) · [微信二维码](https://github.com/0xfaheng#联系与关注)
 
 <!-- 0xfaheng-brand:end -->
 
@@ -181,7 +181,7 @@ curl "https://github-scheduler.你的账户.workers.dev/trigger?workflow=daily-t
 
 ### 8.3 在 GitHub 验证
 
-1. 打开 https://github.com/lairulan/daily-tech-news/actions
+1. 打开 https://github.com/0xfaheng/daily-tech-news/actions
 2. 应该看到一个新的 workflow run 正在执行或刚完成
 
 ---
@@ -255,8 +255,8 @@ wrangler delete github-scheduler
 ┌─────────────────────────────────────────────────────────────┐
 │                     GitHub Actions                           │
 │                                                              │
-│  lairulan/daily-tech-news     → 每天 8:30 北京时间执行       │
-│  lairulan/beauty-generator    → 每天 20:00 北京时间执行      │
+│  0xfaheng/daily-tech-news     → 每天 8:30 北京时间执行       │
+│  0xfaheng/beauty-generator    → 每天 20:00 北京时间执行      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
