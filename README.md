@@ -1,3 +1,12 @@
+<!-- 0xfaheng-brand:start -->
+**0xfaheng · github-scheduler**
+
+[品牌主页与全部公开项目](https://github.com/lairulan) · [当前仓库](https://github.com/lairulan/github-scheduler)
+
+<!-- 0xfaheng-brand:end -->
+
+---
+
 # Cloudflare Worker 部署详细指南
 
 ## 前置条件
